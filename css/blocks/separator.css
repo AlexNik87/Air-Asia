@@ -1,0 +1,25 @@
+.separator {
+    background: url(../../img/bg5.png) center no-repeat; 
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -11px;
+}
+
+.separator__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.separator__img {
+    padding-right: 36px;
+    padding-top: 18px;
+}

@@ -1,0 +1,71 @@
+.section__cart-tours{
+    margin-bottom: 127px;
+}
+
+.cart-tours__title {
+    display: flex; 
+    margin-bottom: 51px;
+}
+
+.cart-tours__title-text { 
+    font-size: 36px;
+    font-weight: bold;
+}
+.cart-tours__icon-fire {
+    margin-left: 15px;
+}
+
+.cart-tour{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-tour__item {
+    height: 449px;
+    background:#fff;
+    border-radius: 5px;
+    width: calc(100% / 3 - 18px);
+}
+.cart-tour__item:last-child{
+    margin-right: 0;
+}
+.cart-tour__picture {
+    margin-bottom: 29px;
+}
+
+.cart-tour__content {
+    padding: 0px 16px 26px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-tour__country {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;  
+}
+
+.cart-tour__desc {
+    display: flex;
+    justify-content: space-between;
+    max-width: 275px;
+    margin-bottom: 28px;
+}
+
+.cart-tour__desc-bloc{
+    display: flex;
+    align-items: center;
+}
+
+.cart-tour__icon-calendar, .cart-tour__icon-breakfast{
+    margin-right: 10px;
+}
+.cart-tour__desc-period, .cart-tour__desc-breakfast {
+    color: #666666;
+    font-size: 16px;
+} 
+
+.cart-tour__desc-text{
+    color: #303030;  
+}

@@ -1,0 +1,41 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 145px;
+}
+.paginator__display {
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.paginator__list{
+    display: flex;
+}
+
+.paginator__link {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:transparent;
+    padding: 6px 12px;
+    border-radius: 50%;
+}
+
+.paginator__link--active{
+    background-color: white;
+    color: #F5170E;
+}
+
+.paginator__text-color{
+    color: black;
+}
+
+.paginator__services {
+    margin-bottom: 0;
+}
+
+.paginator-services__link--active {
+    background-color: #F5170E;
+    color: white;
+}

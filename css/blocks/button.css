@@ -1,0 +1,44 @@
+.button {
+    color: white;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 17px 39px;  
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid transparent; 
+    cursor: pointer;  
+}
+
+.button__passive {
+    padding: 17px 29px 17px 30px;
+    border-color: #F5170E;
+    background-color: transparent;
+    color: #F5170E;
+    margin-left: 24px;
+}
+
+.button__active {
+    padding: 17px 29px 17px 30px;
+    margin-left: 24px;
+}
+
+.button-services__passive {
+    padding: 17px 39px;
+    border-color: #F5170E;
+    background-color: transparent;
+    color: #F5170E;
+   
+}
+
+.button--color--grey {
+    background: #8E8E8E;
+    padding: 18px 44px;
+    margin-right: 17px;
+}
+
+.button--color--grey:hover {
+    background: #2B2B2B;
+    transition: .2s;
+}

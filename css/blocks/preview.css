@@ -1,0 +1,28 @@
+.preview {
+    width: 45%;
+    margin-bottom: 245px;
+   
+}
+.preview__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.1pm;
+    margin-bottom: 21px;
+}
+.preview__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.preview__services {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.preview__title-servises{
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 62px;
+}

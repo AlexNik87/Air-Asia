@@ -1,0 +1,14 @@
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top__line {
+    min-height: 412px;
+    background: url(../../img/bg-services.png) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+}

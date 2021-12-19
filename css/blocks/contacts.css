@@ -1,0 +1,13 @@
+.contacts {
+    font-style: normal;
+    text-align: right;
+    
+}
+.contacts__phohe {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__text {
+    font-size: 11px;
+}

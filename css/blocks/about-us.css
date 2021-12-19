@@ -1,0 +1,30 @@
+.about-us {
+    display: flex;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.about-us__gate {
+    object-fit: none;
+}
+
+.about-us__content {
+    background-image: url(../../img/mountains.png); 
+    margin-left: -135px;
+    margin-top: 97px;
+    height: 455px;
+    width: 785px;
+    padding: 70px 202px 66px 81px;    
+}
+
+.about-us__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 37px;
+}
+.about-us__description {
+    font-size: 16px;
+    line-height: 27px;
+    color: #060606;
+    margin-bottom: 43px;
+}

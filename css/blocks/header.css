@@ -1,0 +1,22 @@
+.header {
+    padding-top: 21px;
+    padding-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+
+.header__col{
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right{
+    justify-content: flex-end;
+}
+
+.header__services {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
